@@ -220,6 +220,9 @@ find . -name "*.c" | xargs grep -rnH res_init
 12. 
 grep --color
 
+13.
+visudo to edit the /etc/sudoers file
+
 *********************************
 *******       VSCODE      *******
 *********************************
