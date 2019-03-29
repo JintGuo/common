@@ -117,6 +117,8 @@ set number
 24.
 vertical resize 50
 
+25.high light pattern matches 
+:set hlsearch
 
 *********************************
 *************  VS  **************
