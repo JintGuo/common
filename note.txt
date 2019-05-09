@@ -225,6 +225,9 @@ grep --color
 13.
 visudo to edit the /etc/sudoers file
 
+14. sudo privelege
+visudo
+
 *********************************
 *******       VSCODE      *******
 *********************************
