@@ -120,6 +120,13 @@ vertical resize 50
 25.high light pattern matches 
 :set hlsearch
 
+26. set bookmard
+set : 
+m <a-z>
+
+jump to bookmard
+` <a-z>
+
 *********************************
 *************  VS  **************
 *********************************
