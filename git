@@ -1,0 +1,35 @@
+1. add remote 
+git remote add <remote-name> <url>
+git push different-repo master
+
+2. 
+1、运行git reflog命令查看你的历史变更记录，如下：
+
+fdb70fe HEAD@{0}: pull origin newpbft: Fast-forward
+40a9a83 HEAD@{1}: checkout: moving from guan to master
+b3fa4c3 HEAD@{2}: commit: copy from newpbft, first init
+71bf0ec HEAD@{3}: checkout: moving from newpbft to guan
+71bf0ec HEAD@{4}: commit: 1. add moveStore() to clean up certStore and blockStore.
+1006d67 HEAD@{5}: commit: 1. Add PBFT branch to Puppeth.
+fa3fb56 HEAD@{6}: commit: 1. change some errors about packages and vars
+5f40fdc HEAD@{7}: checkout: moving from master to newpbft
+40a9a83 HEAD@{8}: clone: from https://github.com/yeongchingtarn/geth-pbft.git
+1
+2
+3
+4
+5
+6
+7
+8
+9
+2、然后用git reset --hard HEAD@{n}，（n是你要回退到的引用位置）回退。
+
+比如上图可运行 git reset --hard 40a9a83
+
+
+--------------------- 
+作者：Publish or Perish 
+来源：CSDN 
+原文：https://blog.csdn.net/code_segment/article/details/78597441 
+版权声明：本文为博主原创文章，转载请附上博文链接！
