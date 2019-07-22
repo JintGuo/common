@@ -235,6 +235,9 @@ visudo to edit the /etc/sudoers file
 14. sudo privelege
 visudo
 
+15. recover deleted file
+https://www.tecmint.com/photorec-recover-deleted-lost-files-in-linux/
+
 *********************************
 *******       VSCODE      *******
 *********************************
