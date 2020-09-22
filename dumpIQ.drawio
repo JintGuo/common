@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T01:49:10.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="qaAA2_Xla3FvHxrb4m8k" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-22T01:55:01.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="MrDHaKpSTln5vQpIj4MJ" version="13.7.3" type="github">
   <diagram id="kCJveKLZRXdk8TdYt-Dh" name="Page-1">
     <mxGraphModel dx="1697" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
             <mxPoint x="520" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6CjLF7gTQOBdLBLqhCSY-13" value="Queue" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.queue;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="6CjLF7gTQOBdLBLqhCSY-13" value="Queue" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.queue;fillColor=none;noLabel=1;" vertex="1" parent="1">
           <mxGeometry x="354.62" y="370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6CjLF7gTQOBdLBLqhCSY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6CjLF7gTQOBdLBLqhCSY-16" target="6CjLF7gTQOBdLBLqhCSY-17">
@@ -189,7 +189,7 @@
           <mxGeometry x="700" y="780" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6CjLF7gTQOBdLBLqhCSY-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="317.81" y="340" width="180" height="105" as="geometry" />
+          <mxGeometry x="330" y="340" width="150" height="125" as="geometry" />
         </mxCell>
         <mxCell id="6CjLF7gTQOBdLBLqhCSY-64" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 14px&quot;&gt;RabbitMQ&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="355" y="345.18" width="80" height="20" as="geometry" />
@@ -210,6 +210,9 @@
         </mxCell>
         <mxCell id="6CjLF7gTQOBdLBLqhCSY-71" value="Gui" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="55" y="675" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6CjLF7gTQOBdLBLqhCSY-73" value="Queues" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="364.62" y="430" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
